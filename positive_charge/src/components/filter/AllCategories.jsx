@@ -14,7 +14,6 @@ const returnCategory = (category) => {
   } else if (category === 'cafe' || category === 'cafes') {
     return 'Cafes';
   } else if (category === 'museum' || category === 'Museums') {
-    console.log('here')
     return 'Museums';
   } else if (category === 'park' || category === 'parks') {
     return 'Parks';
